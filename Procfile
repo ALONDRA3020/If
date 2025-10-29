@@ -1,0 +1,1 @@
+web : gunicorn if_chido_django.wsgi
