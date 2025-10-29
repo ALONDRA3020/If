@@ -20,4 +20,4 @@ def index(request):
             result = evaluator.memory
         except Exception as e:
             result = f"Error: {e}"
-    return render(request, "ifchido/index.html", {"result": result})
+    return render(request, "index.html", {"result": result})
